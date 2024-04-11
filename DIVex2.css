@@ -1,0 +1,44 @@
+.banner {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: -400px; /* Adjust this value to position the profile image */
+    margin-left: calc(5% - 75px); /* Centers the profile image */
+    position: relative;
+    z-index: 1; /* Ensures the profile image appears above the banner */
+}
+
+/* Styles for main content */
+.main-content {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.contact-details {
+    list-style: none;
+}
+
+/* Styles for footer */
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #5A5B2E;
+    color: #E4B860;
+}
